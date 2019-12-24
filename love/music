@@ -1,0 +1,13 @@
+import time
+import pygame
+
+file = 'startup2.mp3'#文件名是完整路径名
+pygame.mixer.init()#初始化音频
+track = pygame.mixer.music.load(file)#载入音乐文件
+pygame.mixer.music.play()#开始播放
+time.sleep(10)#播放10秒
+pygame.mixer.music.stop()#停止播放
+
+
+
+
