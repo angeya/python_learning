@@ -8,7 +8,7 @@ import threading
 
 class player(threading.Thread):
 	def run(self):
-		file = 'startup.mp3'  # 文件名是完整路径名
+		file = 'startup2.mp3'  # 文件名是完整路径名
 		pygame.mixer.init()  # 初始化音频
 		pygame.mixer.music.load(file)  # 载入音乐文件
 		pygame.mixer.music.play()  # 开始播放
